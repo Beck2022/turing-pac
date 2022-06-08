@@ -12254,3 +12254,13 @@ i {
 		hyphens: auto;
 	}
 }
+
+@keyframes fade-inout{
+  0%{opacity:1;}
+  100%{opacity:0;}
+}
+
+.fade-in-fade-out {
+ /* animation:fade-inout .8s infinite alternate; */
+ color: #198754;
+}

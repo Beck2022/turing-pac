@@ -396,12 +396,12 @@ sup {
 }
 
 a {
-  color: #8BC7FF;
+  /* color: #8BC7FF; */
   text-decoration: none;
 }
-a:hover {
+/* a:hover {
   color: #c34e2e;
-}
+} */
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -3879,8 +3879,9 @@ textarea.form-control-lg {
 }
 .btn-outline-light:hover {
   color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  /* background-color: #b8d9fa; */
+  background-color: #30a8c0;
+  border-color: transparent;
 }
 .btn-check:focus + .btn-outline-light, .btn-outline-light:focus {
   box-shadow: 0 0 0 0.25rem rgba(248, 249, 250, 0.5);
@@ -12078,7 +12079,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(41deg, rgba(139,199,255,0.4962359943977591) 50%, rgba(255,255,255,0) 100%), url('../assets/img/team-hands-support.jpg');
+  background: linear-gradient(41deg, rgba(139,199,255,0.80) 50%, rgba(255,255,255,0) 100%), url('../assets/img/team-hands-support.jpg');
   /* background: url("../assets/img/team-hands-support.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
@@ -12196,4 +12197,34 @@ i {
   /* background-color: #8BC7FF; */
   background: rgb(139,199,255);
   background: linear-gradient(153deg, rgba(139,199,255,1) 0%, rgba(13,110,253,1) 100%);
+}
+
+.tres-millones {
+  font-size:7rem;
+  font-weight:100;
+  letter-spacing: -0.1ch;
+}
+
+.text-objetives {
+  font-size: 1.0rem;
+  margin-left: 0%;
+  margin-right: 10%;
+}
+
+.p-requirements {
+  padding: 2%;
+  border: 2px solid #1C92FF;
+  border-radius: 5px;
+  height: 100%;
+
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.p-requirements:hover {
+  border: 2px solid #1C92FF;
+  background-color: #FFF;
+  box-shadow:2px 2px 1000px 2px #1C92FF;
+  transform:translateX(5px);
+  transition:0.1s all;
 }

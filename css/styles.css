@@ -12200,7 +12200,6 @@ i {
 }
 
 .tres-millones {
-  font-size:7rem;
   font-weight:100;
   letter-spacing: -0.1ch;
 }
@@ -12227,4 +12226,12 @@ i {
   box-shadow:2px 2px 1000px 2px #1C92FF;
   transform:translateX(5px);
   transition:0.1s all;
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+	#quienes-somos-justificado {
+		text-align: justify;
+		-webkit-hyphens: auto; /* A día de hoy aún es necesario el prefijo para soportar a Safari */
+		hyphens: auto;
+	}
 }
